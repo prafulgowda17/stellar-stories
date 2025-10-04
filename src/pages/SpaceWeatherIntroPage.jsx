@@ -42,7 +42,7 @@ function SpaceWeatherIntroPage() {
         {activeTab === 'video' && (
           <motion.div key="video-tab" variants={tabContentVariants} initial="hidden" animate="visible">
             <h2>Understanding Space Weather</h2>
-            <div className="video-player-container"><VideoPlayer videoId='space weather2.mp4' /></div>
+            <div className="video-player-container"><VideoPlayer videoId='UDKKhNFiXjY' /></div>
             <p>This video provides a great overview. For more in-depth information and visuals, switch to the "Read Detailed Explanation" tab!</p>
           </motion.div>
         )}
