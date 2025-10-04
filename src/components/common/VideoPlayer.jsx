@@ -1,11 +1,10 @@
 import React from 'react';
 
-// Basic styling for the video wrapper to make it responsive
 const videoWrapperStyle = {
   position: 'relative',
   overflow: 'hidden',
   width: '100%',
-  paddingTop: '56.25%', // 16:9 Aspect Ratio
+  paddingTop: '56.25%',
   margin: '2rem auto',
   borderRadius: '15px',
   backgroundColor: '#000',
@@ -16,30 +15,28 @@ const mediaStyle = {
   position: 'absolute',
   top: 0,
   left: 0,
-  bottom: 0,
-  right: 0,
   width: '100%',
   height: '100%',
   border: 'none'
 };
 
 function VideoPlayer({ videoId }) {
-  let isLocalVideo = false;
-  if (typeof videoId === 'string' && videoId.includes('.mp4')) {
-    isLocalVideo = true;
-  }
+  let videoSrc = '';
+  const isLocalVideo = typeof videoId === 'string' && videoId.includes('.mp4');
   
-  // Construct the correct source URL
-  // For local videos, it's the path from the public folder.
-  // For YouTube, it's the embed URL.
-  const videoSrc = isLocalVideo
-    ? `/videos/${videoId}`
-    : `https://www.youtube.com/embed/${videoId}`;
+  if (isLocalVideo) {
+    // THIS IS THE CRITICAL FIX
+    // We construct the path using the project's base URL.
+    // On local dev, this is '/', on GitHub Pages it will be '/stellar-stories/'
+    videoSrc = `${import.meta.env.BASE_URL}videos/${videoId}`;
+  } else {
+    // YouTube links remain the same
+    videoSrc = `https://www.youtube.com/embed/${videoId}`;
+  }
 
   return (
     <div style={videoWrapperStyle}>
       {isLocalVideo ? (
-        // Use the HTML <video> tag for local .mp4 files
         <video
           style={mediaStyle}
           controls
@@ -49,7 +46,6 @@ function VideoPlayer({ videoId }) {
           Your browser does not support the video tag.
         </video>
       ) : (
-        // Use an <iframe> for YouTube videos
         <iframe
           style={mediaStyle}
           src={videoSrc}
