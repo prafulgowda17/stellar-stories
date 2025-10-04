@@ -1,0 +1,24 @@
+{
+  "id": "eva",
+  "title": "Captain Eva's Aurora Flight",
+  "videoId": "videos/eva-intro.mp4",
+  "introduction": "Captain Eva is an experienced pilot flying a long-haul flight over the Arctic. When a surprise solar storm hits, she must rely on her training and skill to navigate communication blackouts and guide her plane safely through beautiful, shimmering auroras.",
+  "illustration": "/src/assets/illustrations/eva-card.png",
+  "quiz": [
+    {
+      "questionText": "What is Captain Eva's job?",
+      "options": ["Astronaut", "Scientist", "Pilot", "Farmer"],
+      "correctOptionIndex": 2
+    },
+    {
+      "questionText": "What problem did the solar storm cause for Captain Eva's plane?",
+      "options": ["Engine failure", "Bad weather", "Communication blackouts", "Low fuel"],
+      "correctOptionIndex": 2
+    },
+    {
+      "questionText": "What technology on the plane was most affected by the space weather?",
+      "options": ["The wings", "The landing gear", "The radio and GPS", "The coffee maker"],
+      "correctOption-index": 2
+    }
+  ]
+}

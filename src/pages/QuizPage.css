@@ -1,0 +1,49 @@
+/* This class is activated by the QuizPage component */
+body.quiz-page-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://images.hdqwalls.com/wallpapers/earth-view-from-space-4k-23.jpg");
+  background-size: 110%; /* Start slightly zoomed in */
+  background-position: center center;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease-in-out;
+  
+  /* THIS IS THE NEW LINE THAT ADDS THE ANIMATION */
+  animation: subtlePanZoom 60s infinite ease-in-out alternate;
+}
+
+/* THIS IS THE DEFINITION FOR THE ANIMATION */
+@keyframes subtlePanZoom {
+  0% { background-position: 50% 0%; background-size: 110%; }
+  100% { background-position: 50% 100%; background-size: 100%; }
+}
+
+
+/* --- The rest of your quiz styles --- */
+
+.quizPageContainer {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizBox {
+  background: rgba(255, 255, 255, 0.1); /* Frosted glass background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.quizBox h2, .quizBox h3 { text-align: left; }
+.optionsList { list-style: none; padding: 0; margin: 0; }
+.optionButton { display: block; width: 100%; padding: 1rem; margin: 0.5rem 0; font-size: 1rem; text-align: left; background-color: var(--accent-color); border: 2px solid transparent; border-radius: 8px; color: var(--text-color); cursor: pointer; transition: background-color 0.2s, border-color 0.2s; }
+.optionButton:hover { background-color: #4a6585; }
+.optionButton.selected { border-color: var(--highlight-color); }

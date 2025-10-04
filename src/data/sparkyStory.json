@@ -1,0 +1,24 @@
+{
+  "id": "sparky",
+  "title": "The Journey of Sparky",
+  "videoId": "YPLctd6_d-k",
+  "introduction": "Meet Sparky, an energetic particle born on the Sun! This story follows Sparky's incredible journey across the solar system to Earth, and the beautiful and disruptive effects it has when it arrives.",
+  "illustration": "https://public-files.gumroad.com/t4t0sy58cuj2euj2vhjnh9e6psop",
+  "quiz": [
+    {
+      "questionText": "Where was Sparky born?",
+      "options": ["On Earth", "On the Sun", "On the Moon", "In a black hole"],
+      "correctOptionIndex": 1
+    },
+    {
+      "questionText": "What is the big explosion that sent Sparky into space called?",
+      "options": ["A Solar Eclipse", "A Supernova", "A Coronal Mass Ejection (CME)", "A Hurricane"],
+      "correctOptionIndex": 2
+    },
+    {
+      "questionText": "What beautiful phenomenon did Sparky help create when it reached Earth?",
+      "options": ["A rainbow", "A tornado", "The tides", "The Aurora (Northern/Southern Lights)"],
+      "correctOptionIndex": 3
+    }
+  ]
+}

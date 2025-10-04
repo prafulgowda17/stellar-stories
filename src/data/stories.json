@@ -1,0 +1,149 @@
+[
+  {
+    "id": "Solar storms",
+    "title": "Solar Storms",
+    "videoId": "solar storms1.mp4",
+    "introduction": "Solar storms are powerful bursts of energy from the Sun, including solar flares and coronal mass ejections (CMEs). These events can disrupt Earth's magnetic field, affecting satellites, communications, and power grids.",
+    "illustration": "https://tse3.mm.bing.net/th/id/OIP.MN2MrNpuMiyBSXK6fm_WHgHaE8?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "storyContent": [
+      {
+        "type": "paragraph",
+        "text": "This is a dramatic artist's illustration showing a solar storm heading towards Earth. The image depicts a massive eruption, likely a Coronal Mass Ejection (CME), which is a powerful burst of plasma and magnetic fields from the Sun."
+      },
+      {
+        "type": "image",
+        "src": "https://cff2.earth.com/uploads/2019/03/12115640/New-evidence-shows-massive-solar-storms-in-Earth%E2%80%99s-history.jpg",
+        "alt": "Close-up of the sun's fiery surface"
+      },
+      {
+        "type": "paragraph",
+        "text": " When such an event strikes Earth, it interacts with our planet's magnetic field, causing a geomagnetic storm. This can create beautiful auroras (Northern and Southern Lights) but also poses a threat to power grids, satellites, and communications."
+      },
+      {
+        "type": "paragraph",
+        "text": "It's important to note this is a conceptual graphic, as the Sun, Earth, and the distance between them are not to scale.."
+      },
+      {
+        "type": "image",
+        "src": "https://tse4.mm.bing.net/th/id/OIP.0jgwGCcYvl0XiCWBPHbZmQAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "alt": "Earth seen from space"
+      },
+      {
+        "type": "paragraph",
+        "text": "This infographic provides an excellent summary of the widespread impacts of space weather on modern technology. It clearly shows how a single solar event, like a solar flare, CME, or high-speed solar wind stream, can affect various systems on Earth and in space."
+      },
+       {
+        "type": "paragraph",
+        "text": "In space, these particles can damage spacecraft electronics and distort GPS signals, leading to significant inaccuracies. In the atmosphere, they pose a radiation risk to the avionics systems of aircraft."
+      },
+             {
+        "type": "paragraph",
+        "text": "On the ground, the geomagnetic disturbance induces harmful currents that can overload power grids and damage pipelines. It's a fantastic visual guide to our technological vulnerabilities to the Sun's activity."
+      }
+
+    ],
+    "quiz": [
+      { "questionText": "What causes a solar storm?", "options": ["Earth's field", "Sun volcanoes", "Solar flares/CMEs"], "correctOptionIndex": 2 }
+    ]
+  },
+  {
+    "id": "Geo Magnetic Storms",
+    "title": "Geo Magnetic Storms",
+    "videoId": "Geomagnetic storms.mp4",
+    "introduction": "A geomagnetic storm is a disturbance in Earth's magnetic field caused by solar activity, such as solar flares or coronal mass ejections. These storms occur when charged particles from the Sun interact with the magnetosphere, potentially disrupting satellites, power grids, and communication systems, while also creating auroras near the poles.",
+    "illustration": "https://i0.wp.com/www.gktoday.in/wp-content/uploads/2022/02/geomagnetic-storm.png?w=1200&ssl=1",
+    "storyContent": [
+      {
+        "type": "paragraph",
+        "text": "This image provides an educational illustration of a geomagnetic storm. It depicts a powerful stream of charged particles, known as the solar wind, being ejected from the Sun. This solar wind then collides with and disturbs Earth's protective magnetic shield, the magnetosphere. This interaction compresses the magnetic field and can lead to spectacular auroras. The graphic, from \"ENSURE IAS,\" explains this phenomenon as a major disturbance that can impact our planet."
+      },
+      {
+        "type": "image",
+        "src": "https://i0.wp.com/www.gktoday.in/wp-content/uploads/2022/02/geomagnetic-storm.png?w=1200&ssl=1",
+        "alt": "Close-up of the sun's fiery surface"
+      },
+      
+      {
+        "type": "paragraph",
+        "text": "This is a stunning photograph of an aurora, the spectacular natural light show also known as the Northern Lights (aurora borealis) or Southern Lights (aurora australis).This beautiful phenomenon is a direct result of a solar storm. It's created when highly energetic charged particles from the Sun, carried by the solar wind, are channeled by Earth's magnetic field toward the polar regions. These particles then collide with atoms and molecules (like oxygen and nitrogen) in our upper atmosphere. The collisions excite the atoms, causing them to emit light of different colors, which we see as the aurora's dancing curtains and shimmering ribbons.The most common color, the brilliant green seen in this photo, is produced by collisions with oxygen atoms at specific altitudes."
+      },
+      {
+        "type": "image",
+        "src": "https://www.swpc.noaa.gov/sites/default/files/styles/medium/public/GeomagneticStormAurora.png?itok=Vp2M7fEG",
+        "alt": "Earth seen from space"
+      }
+      
+    ],
+    "quiz": [
+      { "questionText": "What causes a geomagnetic storm on Earth?", "options": ["Earth’s rotation slowing down", "Collisions between asteroids", "Disturbances in Earth’s magnetic field caused by solar activity", "Volcanic eruptions releasing magnetic particles"], "correctOptionIndex": 2 }
+    ]
+  },
+  {
+    "id": "Coronal Mass Ejection",
+    "title": "Coronal Mass Ejection",
+    "videoId": "Coronal mass ejection1.mp4",
+    "introduction": "A coronal mass ejection (CME) is a massive burst of solar plasma and magnetic field ejected from the Sun's corona into space. When directed toward Earth, CMEs can disturb the planet’s magnetic field, potentially causing geomagnetic storms, auroras, and disruptions to satellites and communication systems.",
+    "illustration": "https://tse3.mm.bing.net/th/id/OIP.rTsqbUEark6JeP2hwOWYiQHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "storyContent": [
+      {
+        "type": "paragraph",
+        "text": "This image shows a solar  coronal mass ejection (CME) erupting from the Sun, captured by NASA's Solar Dynamics Observatory (SDO) on July 15, 2023. The bright region circled on the right side of the Sun marks an active area where intense magnetic activity caused a sudden burst of energy and solar material. If directed toward Earth, such events can lead to geomagnetic storms, disrupting satellites, communications, and even power systems."
+      },
+      {
+        "type": "image",
+        "src": "https://cdn.mos.cms.futurecdn.net/HtB6jRtv82Fnsz88Xarv5h-970-80.jpg",
+        "alt": "Close-up of the sun's fiery surface"
+      },
+    
+      {
+        "type": "paragraph",
+        "text": "This image shows a coronal mass ejection (CME) captured by NASA’s SOHO (Solar and Heliospheric Observatory) spacecraft using its coronagraph instruments. The sequence across the red and blue panels illustrates the CME as it rapidly expands away from the Sun, with the dark circle in the center representing a disk used to block direct sunlight, allowing the fainter outer corona to be visible. The CME appears as a bright, cloud-like structure moving outward, showcasing the immense energy and mass ejected during such solar events. CMEs can have significant effects on space weather, especially if they are directed toward Earth."
+      },
+      {
+        "type": "image",
+        "src": "https://tse3.mm.bing.net/th/id/OIP.UYrWyYSEDYmCSDHnVA2c0gAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "alt": "Earth seen from space"
+      }
+
+    ],
+    "quiz": [
+      { "questionText": "What is a Coronal Mass Ejection (CME)?", "options": ["A large volcanic eruption on the Sun", "A release of solar wind from the Earth's atmosphere", "A massive burst of plasma and magnetic field from the Sun's corona"], "correctOptionIndex": 2}
+    ]
+  },
+  {
+    "id": "Earth aurora",
+    "title": "Earth Aurora",
+    "videoId": "Earth Aurora.mp4",
+    "introduction": "An aurora is a natural light display that occurs near Earth's polar regions, known as the aurora borealis (northern lights) and aurora australis (southern lights). It is caused by charged particles from the Sun colliding with gases in Earth’s upper atmosphere. These collisions excite the gases, making them glow in vibrant colors like green, pink, and purple. Auroras are most often seen during geomagnetic storms, which are triggered by solar activity such as coronal mass ejections.",
+    "illustration": "https://tse3.mm.bing.net/th/id/OIP.6meJZW-tdicZIl30pHI2dgFvCq?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "storyContent": [
+      {
+        "type": "paragraph",
+        "text": "An aurora, also known as the northern or southern lights, is a natural light display in Earth's sky, predominantly seen in polar regions. It occurs when charged particles from the solar wind interact with the Earth's magnetic field and atmosphere. These particles collide with gases like oxygen and nitrogen, causing them to emit colorful lights. The resulting shimmering and waving patterns are often green, red, pink, or purple, illuminating the night sky with a breathtaking glow"
+      },
+      {
+        "type": "image",
+        "src": "https://tse1.mm.bing.net/th/id/OIP.--gPvb2d1XMlpZvDINScuwHaD7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "alt": "Close-up of the sun's fiery surface"
+      },
+      {
+        "type": "paragraph",
+        "text": "One day, the Sun's powerful magnetic fields twisted and snapped with a mighty ROAR! This created a giant explosion called a Coronal Mass Ejection (CME). Sparky, along with billions of other particles, was flung out into the vast darkness of space at millions of miles per hour."
+      },
+      {
+        "type": "paragraph",
+        "text": "aurora, also called the northern lights, which appears as vibrant bands of color in the night sky. Auroras are caused when charged particles from the Sun reach Earth and interact with its magnetic field and atmosphere. These collisions excite atmospheric gases like oxygen and nitrogen, causing them to glow in colors such as green, pink, and purple. The phenomenon is most often seen in polar regions, like near the Arctic Circle, and is a breathtaking display of nature’s electromagnetic forces"
+      },
+      {
+        "type": "image",
+        "src": "https://i.redd.it/27g432kze7i31.jpg",
+        "alt": "Earth seen from space"
+      }
+      
+    ],
+    "quiz": [
+      { "questionText": "What is the scientific name for the Northern Lights?", "options": ["Aurora Australis", "Aurora Borealis", "Noctilucent Clouds"], "correctOptionIndex": 1 }
+    ]
+  }
+  
+]

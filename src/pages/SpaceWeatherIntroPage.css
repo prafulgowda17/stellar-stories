@@ -1,0 +1,135 @@
+/*
+This class will be dynamically added to the main <body> tag of the website
+ONLY when the SpaceWeatherIntroPage is visible.
+*/
+body.intro-page-active-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://tse4.mm.bing.net/th/id/OIP.iaRyshRTH6x_AJv6I1SJAQHaFY?pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease-in-out;
+}
+
+/* Ensure content on this page is correctly centered */
+.space-weather-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1; /* Allows it to take full vertical space */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Professional glassmorphism card for the content area */
+.intro-content-card {
+  background: rgba(255, 255, 255, 0.08); /* More subtle transparency */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px; /* Slightly more rounded */
+  padding: 2.5rem; /* More padding */
+  max-width: 900px;
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.intro-content-card h2, .intro-content-card h3 {
+  color: var(--highlight-color);
+  margin-top: 1.5rem;
+  border-bottom: none; /* Remove bottom border for headings in card */
+}
+
+/* Styles for the tab buttons */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem; /* Space below tabs */
+}
+
+.tab-button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+  max-width: 200px;
+  font-weight: bold;
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--highlight-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(91, 192, 190, 0.3);
+}
+
+.tab-button.active {
+  background: var(--highlight-color);
+  color: var(--primary-color);
+  border-color: var(--highlight-color);
+  box-shadow: 0 4px 20px rgba(91, 192, 190, 0.5);
+}
+
+/* Specific styles for the video player container */
+.video-player-container {
+  width: 100%;
+  max-width: 640px; /* Smaller default size */
+  margin: 1.5rem auto 2.5rem auto;
+  border-radius: 15px;
+  overflow: hidden; /* Ensures video respects border-radius */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Story content specific styles */
+.story-content {
+  text-align: left;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.story-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.story-content p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .intro-content-card {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+  }
+  .tab-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .tab-button {
+    max-width: 100%;
+    padding: 10px 20px;
+  }
+  .video-player-container {
+    max-width: 90%;
+    margin: 1rem auto 2rem auto;
+  }
+  .story-content h3 { font-size: 1.5rem; }
+}
